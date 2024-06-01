@@ -4,7 +4,7 @@ import openai
 # Set your OpenAI API key here
 
 
-openai.api_key = 'sk-proj-1KYwmUm5brg4Jtlhn91OT3BlbkFJRPEKrrgKPUfN35SEBn3V'
+openai.api_key = ${{ secrets.OPENAIAPI }}
 
 st.title("Customer Support Chatbot for Security Issues")
 
